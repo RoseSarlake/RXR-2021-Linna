@@ -1,0 +1,34 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.16630841785127468 0.9859969654366803 0.012308302135706477 0.9121136339267132
+  position 8.173024515209923 2.045603647101885 6.204687200937364
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+}
+Solid {
+  translation 0 1 0
+  children [
+    DEF cylinder Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.8 0.8
+        roughness 0.8
+        metalness 0.5
+      }
+      geometry Cylinder {
+        height 1
+        radius 0.2
+      }
+    }
+  ]
+  boundingObject USE cylinder
+  physics Physics {
+  }
+}
