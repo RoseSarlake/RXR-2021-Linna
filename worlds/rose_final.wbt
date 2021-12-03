@@ -8,7 +8,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation -0.5421008880046871 -0.81940854313591 -0.18626933902393816 0.7941245797276988
-  position -1.3793053359736125 1.5473628514789461 2.3530495066783996
+  position -0.9704637420989973 1.5455029969350595 3.0206732023242675
 }
 TexturedBackground {
   texture "mars"
@@ -281,7 +281,7 @@ Robot {
         baseColor 1 0.9 1
         baseColorMap ImageTexture {
           url [
-            "F:/code file/robotics/suitcase.jpg"
+            "../suitcase.jpg"
           ]
           filtering 1
         }
@@ -389,7 +389,7 @@ Robot {
       ]
       endPoint Solid {
         translation -0.1 -0.17 0.1
-        rotation -0.9968028247629251 0.056475856315166925 0.056520847464645835 4.709983012455581
+        rotation -0.9968028247629251 0.056475856315166904 0.056520847464645786 4.709983012455581
         children [
           DEF dino_wheel Shape {
             appearance PBRAppearance {
@@ -476,7 +476,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0.2 -0.18 0
-        rotation -0.9999999999921758 2.796055804020013e-06 -2.798283265188001e-06 1.570000000007814
+        rotation -0.9999999999921758 2.7960558040200137e-06 -2.7982832651880012e-06 1.5700000000078134
         children [
           Shape {
             appearance PBRAppearance {
